@@ -1,0 +1,68 @@
+body{
+	background-color: #32CD32;
+}
+
+#conteneur{
+	width: 800px;
+	min-height: 600px;
+	height: auto;
+	margin: auto;
+	border: 1px white dotted;
+	background-color: #FFFFFF;
+}
+
+#banniere{
+	height: 140px;
+	width: 876 px;
+	background-image:url(C:\Users\marti\Pictures\image 1.jpeg);
+	background-position: center;
+}
+
+#menu{
+	height: 30px;
+	width: 876px;
+	text-align:center;
+}
+
+#menu a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-variant:small-caps;
+	color: #000000;
+	font-size:16px;
+	text-decoration:none;
+}
+
+#menu a:hover{
+	text-decoration: underline;
+	color:#CC0033;
+}
+
+#contenu{
+	width: auto;
+	min-height: 528px;
+	height: auto;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+
+#contenu p{
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align:justify;
+	color: #000000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+#copyright{
+	height: 40px;
+	width: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#copyright p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	color:#000080;
+}

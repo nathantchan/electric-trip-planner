@@ -1,0 +1,8 @@
+clear all;
+close all;
+%%
+
+filename = 'C:\Users\Eliott\Google Drive\Hackathon\Datasets\toy_data.csv';
+M = csvread(filename,1,0);
+M = M(:,2:end);
+allIds = 
